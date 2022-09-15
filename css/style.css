@@ -76,6 +76,7 @@ img {
 }
 
 /* LESSONS SECTION */
+
 .lessons .col {
     width: 50%;
 }
@@ -133,6 +134,16 @@ img {
     .container {
         display: inline;
     }
-   
+}
+
+@media screen and (max-width: 480px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row .col{
+        width: 100%;
+    }
 }
 
